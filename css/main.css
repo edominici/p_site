@@ -1,0 +1,118 @@
+/* Mobile first 
+
+//smaller screens
+h1 {
+    font-size: 30px;
+}
+
+//larger screens
+@media (min-width: 640px) {
+    h1 {
+        font-size: 60 px;
+    }
+}
+
+<style>
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #777;
+}
+body {
+     width: 70%;
+     margin: 0 auto;
+     font: 100% Arial, Helvetica, sans-serif;
+     background: IMAGE;
+     border-bottom: 10px solid gold;
+ }
+ h1 {
+      color:black;
+      font-weight: normal;
+      font-family: Georgia;
+      font-size: 2em;
+      font-style: italic;
+      margin: 1em 0 .4em;
+      background: rgb(44,45,140);
+  }
+  a {
+      text-decoration: none;
+      color: red;
+  }
+  a:hover {
+      color: black;
+  }
+
+  p {
+      font-familt: Helvetica, sans-serif;
+      font-size: 1em;
+      line-height: 1.6;
+      text-align: justify;
+      width: 60%;
+      margin: 0;
+      margin-bottom: 1em;
+  }
+</style>*/
+
+
+/* color Palette
+
+*/
+
+/* Fonts 
+-------------------------------
+
+@font-face {
+    font-family: 'new font';
+    src: url(new-font.ttf);
+}
+
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Slab', serif;*/
+
+
+/* Global Styles 
+-------------------------------*/
+html {
+    background: url('../images/background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-size: 16px;
+}
+
+body {
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+    text-align: center;
+}
+
+/* Header
+------------------------------*/
+h1 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 5rem;
+    font-weight: 200;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-weight: 100;
+    margin-top: 0;
+}
+
+/* Naviagation
+---------------------- */
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+
+/* footer */
